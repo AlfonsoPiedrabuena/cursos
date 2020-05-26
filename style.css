@@ -1,1 +1,39 @@
-/*Este será el archivo en el que estaremos trabajando CSS
+/*Este será el archivo en el que estaremos trabajando CSS*/
+
+section{
+    margin: 0 auto;
+    padding: 10px 10px;
+    text-align: center;
+}
+
+section p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: #000
+}
+
+section h3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: #a0a0a0a;   
+}
+
+p#content{
+    text-align: left;
+    margin: 0 auto;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+section ul{
+    text-align: left;
+    margin: 0 auto;
+}
+
+section ul,
+section ul li{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: #000;
+    font-weight: bold;
+}
