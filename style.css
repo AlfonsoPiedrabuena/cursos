@@ -112,7 +112,7 @@ section #formCRM{
   /* increase header size after 600px */
   @media all and (min-width: 600px) {
       .blockquote h1 {
-          font-size: 30px;
+          font-size: 20px;
      }
   
   }
@@ -129,4 +129,17 @@ section #formCRM{
       z-index: 1;
   }
 
-@media only screen and (max-width: 600px)
+@media only screen and (max-width: 600px){
+    .blockquote-wrapper {
+        display: flex;
+        height: 65vh;
+        padding: 0 5px;
+     }
+
+     .blockquote h1 {
+        position: relative;
+        color: #FFFFFF;
+        font-size: 20px;
+        font-weight: 800;
+    }
+}
