@@ -1,13 +1,19 @@
 /*Este será el archivo en el que estaremos trabajando CSS*/
-
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,500,300,700);
 body{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 section{
     margin: 0 auto;
     padding: 10px 10px;
     text-align: center;
+}
+
+section#formCRM{
+    width: 100%;
+    margin 0 auto;
+    display: block;
 }
 
 section.generalInfo{
@@ -17,14 +23,13 @@ section.generalInfo{
 }
 
 section p{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 16px;
     color: #000
 }
 
 h2{
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 28px;
+    font-family: 'Roboto', sans-serif;
     font-style: italic;
     text-align: left;
 }
@@ -35,7 +40,7 @@ section h2{
 }
 
 section h3{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 20px;
     color: #505050;   
 }
@@ -54,7 +59,7 @@ section ul{
 
 section ul,
 section ul li{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 20px;
     color: #000;
     font-weight: bold;
@@ -110,7 +115,7 @@ section #formCRM{
   }
   
 
-h1{
+section#content h1{
     font-size: 30px;
     color: #fff;
     text-transform: uppercase;
@@ -118,6 +123,16 @@ h1{
     text-align: center;
     margin-bottom: 15px;
   }
+
+
+section#content p{
+    font-size: 18px;
+    color: #fff;
+    font-weight: 300;
+    text-align: center;
+    margin-bottom: 15px;
+  }
+
   table{
     width:100%;
     table-layout: fixed;
@@ -152,7 +167,7 @@ h1{
   
   /* demo styles */
   
-  @import url(https://fonts.googleapis.com/css?family=Roboto:400,500,300,700);
+
   section#content{
     background: -webkit-linear-gradient(left, #25c481, #25b7c4);
     background: linear-gradient(to right, #25c481, #25b7c4);
@@ -167,7 +182,7 @@ h1{
     clear: left;
     text-align: center;
     font-size: 10px;
-    font-family: arial;
+    font-family: 'Roboto', sans-serif;
     color: #fff;
   }
   .made-with-love i {
