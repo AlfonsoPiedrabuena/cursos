@@ -79,7 +79,7 @@ section #formCRM{
   /* Blockquote main style */
   .blockquote {
       position: relative;
-      font-family: 'Montserrat', sans-serif;
+      font-family: 'Roboto', sans-serif;
       font-weight: 800;
       color: #ffffff;
       padding: 30px 0;
@@ -115,7 +115,7 @@ section #formCRM{
   }
   
 
-section#content h1{
+  h1.mainheader {
     font-size: 30px;
     color: #fff;
     text-transform: uppercase;
