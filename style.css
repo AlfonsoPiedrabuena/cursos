@@ -19,6 +19,12 @@ section#formCRM{
 form{
     width: 90%;
 }
+section#formCRM input,
+section#formCRM label{
+    width: 100%;
+    display: block;
+}
+
 
 section.generalInfo{
     background-color: #52ACFF;
@@ -251,5 +257,9 @@ section#content p{
         color: #FFFFFF;
         font-size: 20px;
         font-weight: 800;
+    }
+
+    label{
+
     }
 }
