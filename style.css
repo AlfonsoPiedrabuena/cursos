@@ -25,6 +25,10 @@ section#formCRM label{
     display: block;
 }
 
+section#formCRM label{
+    text-align:center;
+}
+
 
 section.generalInfo{
     background-color: #52ACFF;
