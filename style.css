@@ -11,14 +11,11 @@ section{
 }
 
 section#formCRM{
-    width: 100%;
+    width: 90%;
     margin: 0px auto;
     display: block;
 }
 
-form{
-    width: 90%;
-}
 section#formCRM input,
 section#formCRM label{
     width: 100%;
