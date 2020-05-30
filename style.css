@@ -29,6 +29,9 @@ section#formCRM label{
     text-align:center;
 }
 
+.hbspt-form .hs-form-iframe {
+    width: 100% !important;
+  }
 
 section.generalInfo{
     background-color: #52ACFF;
@@ -263,7 +266,4 @@ section#content p{
         font-weight: 800;
     }
 
-    label{
-
-    }
 }
