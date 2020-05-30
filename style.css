@@ -27,8 +27,11 @@ section#formCRM label{
 }
 
 .hbspt-form {
-    width: 90% !important;
-    display:block;
+    width: 320px !important;
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+}
   }
 
 
